@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 41
+names: ['aferin', 'aljil', 'apodonorm5mg', 'apodorm5mg', 'apranax', 'arveles', 'aspirin', 'betasalic', 'box', 'buprefarm5ug_hour', 'dikloron', 'dolcontin10mg', 'dolcontin5mg', 'dolorex', 'fentanyl50ug_ml', 'hametanKrem', 'hametanMerhem', 'ibucoldC', 'imovane7-5mg', 'levopidon25mg', 'majezik', 'majezikmajezik', 'metadon_hydrochlorid40mg', 'metpamid', 'midazolam5mg_ml', 'morfin10mg', 'nexium', 'nobligan_retard200mg', 'oxycontin10mg', 'oxycontin15mg', 'oxycontin5mg', 'oxynorm10mg', 'parol', 'silverdin', 'sobril25mg', 'terbisil', 'travazol', 'ultiva5mg', 'unisom', 'valium5mg', 'xanor2mg']
+
+roboflow:
+  workspace: fernando-vela-rdnuo
+  project: medicineboxes
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fernando-vela-rdnuo/medicineboxes/dataset/1
